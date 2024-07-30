@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Exibir categorias na página de categorias
+    // Exibir categorias na página de temas
     function displayCategories(categories) {
         if (categoriesList) {
             categoriesList.innerHTML = '';

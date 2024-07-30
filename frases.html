@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temas - Pensadora</title>
+    <title>frases- Pensadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
                     <li><a href="index.html">Início</a></li>
                     <li><a href="frases.html">frases</a></li>
                     <li><a href="Autores.html">Autores</a></li>
-                    <li><a href="Categorias.html">Categorias</a></li>
+                    <li><a href="Temas.html">Temas</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,14 +27,34 @@
                 <input type="text" id="search-input" placeholder="Buscar frases ou autores...">
                 <button id="search-button">Buscar</button>
             </div>
-            <h2>Temas</h2>
-            <div id="categories-list">
-                <!-- Lista de categorias será inserida aqui -->
+            <div id="quotes-list">
+                <!-- As citações serão inseridas aqui -->
             </div>
         </div>
     </main>
 
     <script src="data.js"></script>
     <script src="script.js"></script>
+
+    <button id="readmore" class="btn-load-more" data-url="frases" data-title="Fr
+        ases" data-query="ZmVsaWNpZGFkZSBhbGVncmlhIG1vdGl2YcOnw6NvIGFtaXphZGUgcmVmbGV4w6NvIGFjcmVkaXRhciBhY3JlZGl0ZSB2aWRhIGRlc2NvYnJpciBvdGltaXNtbyAtKG1lZMOtb2NyZSBodW1vcik="
+        data-tipo-rico="bmVuaHVt" data-start-page="1" data-current-page="3" data-meta-description="Encontre as melhores de Frases de Amor, Amizade, Reflexão, Românticas, Inteligentes... de vários autores para ler e compartilhar." 
+        style="display: block;">…</button>
+        <div id="paginacao" class="pagination mb-10 discrete">
+            <a href="/frases/2/" class="nav" style="display: inline-block;";><Anterios</a>
+            <a href="/frases/">1</a>
+            <a href="/frases/2/" style="display: inline-block;">2</a>
+            <span class="active" style="display: inline-block;">3</span>
+            <a href="/frases/4/" style="display: inline-block;">4</a>
+            <a href="/frases/5/">5</a>
+            <a href="/frases/6/">6</a>
+            <a href="/frases/7/">7</a>
+            <a href="/frases/8/">8</a>
+            <a href="/frases/9/">9</a>
+            <a href="/frases/10/">10</a>
+            <a href="/frases/4/" class="nave" style="display: inline-block;">Próxima</a>
+        </div>
+
+    </section>
 </body>
 </html>

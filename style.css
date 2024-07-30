@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #1287c5;
+    background-color: #15b5b8;
     color: #fff;
     padding: 10px 0;
 }
@@ -53,27 +53,27 @@ nav ul li a:hover {
 }
 
 .share-button.facebook {
-    background-color: #3b5998;
+    background-color: #0a0a0a;
 }
 
 .share-button.facebook:hover {
-    background-color: #2d4373;
+    background-color: #0c0c0c;
 }
 
 .share-button.twitter {
-    background-color: #55acee;
+    background-color: #0b0b0b;
 }
 
 .share-button.twitter:hover {
-    background-color: #2795e9;
+    background-color: #0b0b0b;
 }
 
 .share-button.linkedin {
-    background-color: #0077b5;
+    background-color: #0a0a0a;
 }
 
 .share-button.linkedin:hover {
-    background-color: #005582;
+    background-color: #070707;
 }
 
 main {
