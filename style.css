@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1287c5;
     color: #fff;
     padding: 10px 0;
 }
@@ -100,7 +101,7 @@ main {
     padding: 15px;
     margin: 10px 0;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(12, 99, 170, 0.1);
 }
 
 .quote .author {
@@ -108,7 +109,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #1e73d4;
     color: #fff;
     text-align: center;
     padding: 10px 0;
