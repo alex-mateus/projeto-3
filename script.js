@@ -38,10 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { text: "A vida é uma aventura ousada ou nada.", author: "Helen Keller", category: "Vida" },
         { text: "Não julgue cada dia pela colheita que você colhe, mas pelas sementes que você planta.", author: "Robert Louis Stevenson", category: "Inspiração" },
         { text: "Para cada minuto que você está com raiva, você perde sessenta segundos de felicidade.", author: "Ralph Waldo Emerson", category: "Felicidade" },
-        { text: "A vida é uma estrada longa, com curvas, retas e desvios. Em cada passo, um desafio, em cada curva,um novo brilho.", author: "Alejandra Mateus" category:"Vida"};
-        { text: "Os dias passam, rápidos ou lentos, e cada momento é um fragmento. De uma história, única e nossa, Feita de amor, de luta e glória.", author: "Alejandra Mateus" category: "Amor"},
-        { text: "Há dias de sol, dias de chuva, e cada um traz sua lição. Na jornada, crescemos e aprendemos, em busca de realização.", author: "Alejandra Mateus" category: "Motivação"},
-        { text: "Segue em frente, com esperança, o futuro é um mistério a desbravar. A vida é bela, uma dança, e cada instante, um despertar.", author: "Alejandra Mateus" category: "Inspiração"}, 
+
     ];
     
     const authors = [
@@ -73,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "Helen Keller" },
         { name: "Robert Louis Stevenson" },
         { name: "Ralph Waldo Emerson" },
-        { name: "Alejandra Mateus" },
     ];
     
     const categories = [
@@ -198,4 +194,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
 });
-    
+
