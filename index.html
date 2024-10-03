@@ -34,6 +34,35 @@
             </div>
         </div>
     </main>
+ 
+<form>
+
+    <fieldset class="grupo">
+    <div class="campo">
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" id="nome" required>
+    </div>
+    
+    <div class="campo">
+        <label for="sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" name="sobrenome" id="sobrenome" required>
+    </div>
+</fieldset> 
+
+    <div class="campo">
+    <label for="email"><strong>Email</strong></label>
+    <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="campo">
+        <br>
+        <label for="experiencia"><strong>Conte um pouco mais sobre você e seu poema</strong></label>
+        <textarea rows="3" style="width: 15em" id="experiencia" name="experiencia"></textarea>
+    </div>
+
+  <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+</form>
 
     <script src="data.js"></script>
     <script src="script.js"></script>
